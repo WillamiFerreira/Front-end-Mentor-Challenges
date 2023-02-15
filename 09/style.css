@@ -1,0 +1,25 @@
+.frame {
+    border: 1px solid black;
+    padding: 4px;
+    display: flex;
+    gap: 8px;
+    height: ;
+}
+
+code {
+    background-color: rgb(213, 213, 213);
+    border: 1px solid rgb(76, 76, 76);
+    border-radius: 4px;
+}
+
+tr>* {
+    padding: 2px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(216, 216, 216);
+}
+
+tbody td:nth-child(even) {
+    text-align: right;
+}
